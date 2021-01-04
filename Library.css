@@ -1,0 +1,97 @@
+*{
+    padding: 0; 
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    background-color: #11005c;
+    background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: whitesmoke;
+    font-size: 48px;
+    line-height: 80px;
+    padding: 0 200px;
+    font-weight: 100;
+}
+nav ul{
+    float:right;
+    margin-right: 200px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: whitesmoke;
+    font-size: 17px;
+}
+img.Homebg{
+    width: 1349px;
+    height:333px;
+}
+#boxlibrary{
+    width: 500px;
+    height: 900px;
+    border: 1px solid;
+    padding: 50px;
+    margin: 100px;
+    position: relative;left:340px;top:7px;
+    background-color: #ededed;
+    border-color: #e3e3e3;
+}
+#catalogheader{
+    font-weight: bold;
+}
+p.catalogdesc{
+    line-height: 25px;
+    padding-bottom: 10px;
+    position: relative;top:15px;
+    font-size: 15px;
+}
+div.mangacatalog{
+    width: 380px;
+    height: 600px;
+    border: 1px solid;
+    padding: 50px;
+    margin: 100px;
+    position: relative;left:-85px;top:-3px;
+    background-color:#f7f5f5;
+    border-color: #d6d6d6;
+}
+#mangalist{
+    list-style: none;
+    font-weight: lighter;
+    line-height: 35px;
+    font-size: 15px;
+    position: relative;left: -20px;top: -20px;
+}
+#titleBox{
+    width: 380px;
+    height: 2px;
+    border: 1px solid;
+    padding: 25px;
+    margin: 100px;
+    position: relative;left:406px;top:-800px;
+    background-color:#f0efef;
+    border-color: #d6d6d6;
+}
+#MangaBox{
+    font-weight: lighter;
+    position: relative;top:-10px;
+}
+#mlinks{
+    color:#4e4e4e;
+
+}
+#mlinks:hover{
+    color:black;
+}
